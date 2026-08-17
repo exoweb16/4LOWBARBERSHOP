@@ -1,0 +1,184 @@
+<style>
+
+
+
+ .resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px)
+ {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px)
+ {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) 
+{
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+        body{
+            margin: 65px;
+            font-family: sans-serif;
+            font-size: 14px;
+            background-image: url(img/precos.jpg)
+
+                }
+
+p{
+  font-size: 25px;
+  font-family: "Book Antiqua";
+  color:#D5DBDB;
+  text-align:left;
+   background-color:#4048DD;
+  background-size: cover;
+  text-shadow: 2px 2px 1px #000;
+}
+
+
+h1{
+  font-size: 100px;
+  text-shadow: 4px 4px 2px #000;
+  color:#D5DBDB;
+  font-family: "Times New Roman";
+     background-color:#FA0300;
+
+}
+
+h2{
+  font-size: 60px;
+    font-family: "Broadway";
+  text-shadow: 2px 2px 1px #000;
+color: #FBFCFC;
+}
+
+h3{
+  font-size: 40px;
+    font-family: "Broadway";
+  text-shadow: 2px 2px 1px #000;
+color: #FBFCFC;
+}
+
+h4{
+  font-size: 40px;
+    font-family: "Broadway";
+  text-shadow: 2px 2px 1px #000;
+color: #FBFCFC;
+}
+
+h5{
+  font-size: 20px;
+    font-family: "Broadway";
+  text-shadow: 2px 2px 1px #000;
+color: #FBFCFC;
+}
+        .menu-wrapper ul{
+            padding: 0;
+            list-style: none;
+
+        }
+
+        .principal-menu > li {
+            display: inline-block;
+        }
+
+        .principal-menu > li > a{
+            display: block;
+            padding: 20px 10px;
+            width: 90px;
+        }
+
+        li ul{
+            position: absolute;
+            display: none;
+        }
+
+        .sub-menu a {
+            display: block;
+            padding: 20px 10px;
+            width: 130px;
+        }
+
+        li:hover ul{
+            display: block;
+        }
+
+        .menu-wrapper, li ul{
+            background: #333;
+        }
+
+        .principal-menu {
+            width: 412px;
+            margin: 0 auto;
+        }
+
+        .principal-menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .principal-menu li:hover{
+            background: #f75e25;
+            text-shadow: 0 0 4px #000;
+        }
+
+        .moto{ border-radius: 50%
+
+
+        }
+
+        .precios{ height:500px;
+        width:700px;}
+
+.pie{ height:400px;
+width:750px;
+}
+
+.HB{  border-radius:50px;
+}
+
+
+.face{
+  border-radius: 50%;
+}
+.mapa{
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+    </style>
